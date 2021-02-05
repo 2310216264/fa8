@@ -1,0 +1,451 @@
+
+<html>
+<head>
+<meta http-equiv="x-ua-compatible" content="ie=7" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+<meta name="keywords" content="亿企赋能源码交易网,交易平台">
+<meta name="description" content="亿企赋能，一个交易安全有保障的网站源码交易平台,分享平台。">
+<title>亿企赋能 - 网站源码网、源码交易平台</title>
+
+<link href="css/global.css?t=0996192001607954354" rel="stylesheet" type="text/css" />
+<link href="css/basic.css?t=0996192001607954354" rel="stylesheet" type="text/css" />
+
+<link href="css/index.css?t=0996192001607954354" rel="stylesheet" type="text/css" />
+
+<script language="javascript" src="js/global.js?t=0996192001607954354"></script>
+<script language="javascript" src="js/basic.js?t=0996192001607954354"></script>
+<script language="javascript" src="js/jquery-1.9.1.min.js?t=0996192001607954354"></script>
+<script language="javascript" src="js/layer.js?t=0996192001607954354"></script>
+
+<script language="javascript" src="js/index.js?t=0996192001607954354"></script>
+
+<script language="javascript">
+document.addEventListener('plusready', function() {
+    var webview = plus.webview.currentWebview();
+    plus.key.addEventListener('backbutton', function() {
+        webview.canBack(function(e) {
+            if(e.canBack) {
+                webview.back();
+            } else {
+                webview.close(); //hide,quit按手机返回键直接退出APP
+                //plus.runtime.quit();
+            }
+        })
+    });
+});
+</script>
+<script language="javascript" src="js/jQuery.textSlider.js"></script>
+</head>
+<body>
+<div style="display:none;" id="webhttp">http://ekdy.zxm.ink/</div>
+<div id="bodywrap" class="" style="display: block;">    <div class="header" id="header" style="margin-left:0px;transition:0.5s;-moz-transition:0.5s;-webkit-transition:0.5s;-o-transition:0.5s;">        <div class="box box2">            <div class="userface" onclick="window.location='/m/user'" style="display: block;"><img src="./img/nonetx.gif" id="sjcl3"></div>                <div class="scicon" onclick="topxiala()"></div>                <div class="listicon" id="asideclick" style="display: block;"><div class="ybg" style="display: block;"></div></div>            <div class="text" style="display: block;"><span>亿企赋能</span></div>        </div>    </div></div><div id="topzhezhao"></div><div id="asidebg" style="display: none;"></div><aside class="asidemenu" style="/* right:-17.5em; */transition:0.5s;-moz-transition:0.5s;-webkit-transition:0.5s;-o-transition:0.5s;">    <div>     <div class="asideuser" id="notlogin" onclick="window.location='http://ekdy.zxm.ink/m/user/touxiang.php';" style="display:none;">         <div class="face"><img src="./img/user-tx.png"></div>         <div class="name"><div class="rbg iconfont"></div><span>请登录</span></div>         <div class="message">登录后查看详情</div>     </div>     <div class="asideuser" id="yeslogin" style="" onclick="window.location='http://ekdy.zxm.ink/m/user/';">         <div class="face"><a href="http://ekdy.zxm.ink/m/user/touxiang.php"><img src="./img/nonetx.gif" id="sjcl2" width="40" height="40" alt="ico"></a></div>         <div class="name"><div class="rbg iconfont"></div><span id="yesuid">zhou</span></div>         <div class="message"><span id="sjcl1">0.10</span></div>     </div>     </div>    <div class="gk-cart" onclick="window.location='http://ekdy.zxm.ink/m/user/car.php'"><div class="rbg iconfont"></div><div class="carticon"></div><span>购物车</span></div>    <div class="clear"></div>    <ul style="height:517.7376px;">        <li onclick="window.location='http://ekdy.zxm.ink/m/'"><div class="rbg iconfont"></div><div class="icon icon1"></div><div class="text">首页</div></li>        <li onclick="window.location='http://ekdy.zxm.ink/m/product/search.html'"><div class="rbg iconfont"></div><div class="icon icon2"></div><div class="text">商品</div></li>        <li onclick="window.location='http://ekdy.zxm.ink/m/news/newslist.html'"><div class="rbg iconfont"></div><div class="icon icon4"></div><div class="text">文章</div></li>        <li onclick="window.location='http://ekdy.zxm.ink/m/task/'"><div class="rbg iconfont"></div><div class="icon icon5"></div><div class="text">任务</div></li>        <li onclick="window.location='http://ekdy.zxm.ink/m/user/pay.php'"><div class="rbg iconfont"></div><div class="icon icon6"></div><div class="text">充值</div></li>        <li onclick="window.location='http://ekdy.zxm.ink/m/user/order.php'"><div class="rbg iconfont"></div><div class="icon icon7"></div><div class="text">我的订单</div></li>        <li onclick="window.location='http://ekdy.zxm.ink/m/user/shezhi.php'"><div class="rbg iconfont"></div><div class="icon icon9"></div><div class="text">用户设置</div></li>        <li class="last" onclick="window.location='http://ekdy.zxm.ink/m/user/sell.php'"><div class="rbg iconfont"></div><div class="icon icon8"></div><div class="text">商户中心</div></li>    </ul></aside><script language="javascript">userCheckses();</script><div id="topxialam" style="display:none;">    <div class="topxialam1 box">        <div class="search_box">            <div class="search">                <form id="index_search_form" method="post" action="http://ekdy.zxm.ink/m/search/index.php?admin=1" target="_parent" onsubmit="return submit_search();">                    <div class="text_box">                        <input id="keyword" name="topt" type="text" placeholder="请输入关键词" class="keyword text" onkeydown="this.style.color='#404040'" autocomplete="off">                    </div>                    <input type="submit" value="" class="submit" dd_name="搜索">                </form>            </div>        </div>    </div>        <div class="topxialam2 box">    <div class="dmain flex"><img onclick="topxiala()" src="http://ekdy.zxm.ink/m/homeimg/top/close.png"></div>    </div>    </div><script>$(function(){ //侧栏弹出	$("#asideclick").click(function(){    	$("#asidebg").fadeIn(500)        $("#bodywrap").addClass("bodywrap_left")        $("#bodywrap header,#bodywrap footer,.filtermain,.topmenu").attr("style","margin-left:-17.5em;transition:0.5s;-moz-transition:0.5s;-webkit-transition:0.5s;-o-transition:0.5s;")        $(".asidemenu").attr("style","right:0px; transition:0.5s;-moz-transition:0.5s;-webkit-transition:0.5s;-o-transition:0.5s; box-shadow:0 0 2.5em rgba(0,0,0,0.24);")        	});	$("#asidebg").click(function(){        $("#asidebg").fadeOut(500)        $("body").attr("onmousewheel","return true;")        $("#bodywrap").removeClass("bodywrap_left")        $("#bodywrap").addClass("bodywrap_right")        $("#bodywrap header,#bodywrap footer,.filtermain,.topmenu").attr("style","margin-left:0px;transition:0.5s;-moz-transition:0.5s;-webkit-transition:0.5s;-o-transition:0.5s;")        $(".asidemenu").attr("style","right:-17.5em; transition:0.5s;-moz-transition:0.5s;-webkit-transition:0.5s;-o-transition:0.5s; ")        setTimeout(function(){            $("#bodywrap").removeClass("bodywrap_right")        },500);	});});</script>
+
+<!--<div class="indextop box">-->
+<!-- <div class="d1 flex"><a href="./"><img src="homeimg/zhan_mImg/logo.png" onerror="this.src='img/logo.png'" /></a></div>-->
+<!-- <div class="d2"><a href="user/qiandao.php"><img src="homeimg/zhan_mImg/qian.png" /></a></div>-->
+<!--</div>-->
+
+<!--图片B-->
+<div class="addWrap">
+<div class="swipe" id="mySwipe">
+<div class="swipe-wrap">
+
+<div><a href=""><img class="img-responsive" src="../g6/0645493001607918389.jpg" /></a></div>
+
+</div>
+</div>
+<ul id="position" style="display:none;"><li class="cur"></li></ul>
+</div>
+<script src="js/swipe.js"></script> 
+<script type="text/javascript">
+var bullets = document.getElementById('position').getElementsByTagName('li');
+var banner = Swipe(document.getElementById('mySwipe'), {
+auto: 2000,
+continuous: true,
+disableScroll:false,
+callback: function(pos) {
+var i = bullets.length;
+while (i--) {
+bullets[i].className = ' ';
+}
+bullets[pos].className = 'cur';
+}});
+</script>
+<!--图片E-->
+
+<!--图标滑屏B-->
+<div class="menuhp">
+
+<div class="swiper-container">
+<div class="swiper-wrapper">
+
+<div class="swiper-slide">
+<span class="d1"><a href="alltype/"><img src="img/tb5.png" /><br>全部分类</a></span>
+<span class="d1"><a href="user/order.php"><img src="img/tb2.png" /><br>我的订单</a></span>
+<span class="d1"><a href="task/"><img src="img/tb9.png" /><br>任务大厅</a></span>
+<span class="d1"><a href="user/"><img src="img/tb8.png" /><br>个人中心</a></span>
+<span class="d1"><a href="user/favpro.php"><img src="img/tb3.png" /><br>我的收藏</a></span>
+<span class="d1"><a href="news/newslist.html"><img src="img/tb6.png" /><br>行业资讯</a></span>
+<span class="d1"><a href="user/paylog.php"><img src="img/tb4.png" /><br>资金管理</a></span>
+<span class="d1"><a href="user/car.php"><img border="0" src="img/tb1.png" /><br>购物车</a></span>
+<span class="d1"><a href="contact/"><img border="0" src="img/tb7.png" /><br>联系我们</a></span>
+</div>
+
+</div>
+<div class="swiper-pagination" style="display:none;"></div>
+</div>
+
+</div>
+<link rel="stylesheet" href="swiper/css/swiper.min.css">
+<script src="swiper/js/swiper.min.js"></script>
+<script>
+var swiper = new Swiper('.swiper-container', {
+pagination: '.swiper-pagination',
+paginationClickable: true,
+spaceBetween: 30,
+});
+</script>
+<!--图标滑屏E-->
+
+<!---->
+<div class="indexgg box">
+<div class="d1"><img src="homeimg/zhan_mImg/ggicon.png" /><span></span></div>
+	<div class="d2 flex">
+	
+		<div class="divm">
+			<div class="scrollDiv" id="scrollDiv1">
+				<div class="scrollText">
+				<ul>
+				
+				<li onClick="gourl('help/ggview20.html')">关于2020年3月8日重要通知！全面实行商家/会员免费开店啦！</li>
+				
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</div>
+</div>
+<script language="javascript">
+$(document).ready(function(){
+$(".scrollDiv").textSlider({
+line:1,
+speed:500,
+timer:4000
+});
+});
+</script>
+<!--限时促销-->
+
+<div class="clear clear10"></div>
+<div class="indexcap box">
+<div class="d1 flex">限时促销</div>
+<div class="d2"><a href="product/">更多 ></a></div>
+</div>
+<!--限时促销-->
+<div class="swiper-container1">
+<div class="swiper-wrapper">
+
+</div>
+<div class="swiper-pagination1"></div>
+</div>
+<!--限时促销-->
+<script>
+swiper1 = new Swiper('.swiper-container1', {
+slidesPerView: 2.7,
+spaceBetween:20,
+freeMode: true,
+pagination: {
+el: '.swiper-pagination1',
+clickable: true,
+},
+});
+userChecksj();
+</script>
+<!--限时促销-->
+
+
+
+
+
+
+<div class="indexcap box">
+<div class="d1 flex">最近更新</div>
+<div class="d2"><a href="product/">更多 ></a></div>
+</div>
+<div class="prolist box">
+<div class="dmain flex">
+
+
+
+
+
+<a href="product/view1.html">
+<div class="dm">
+<div class="d1"><div><img src="http://ekdy.zxm.ink/upload/1/1607579192-1/0619837001607579242tp1-1.jpg" onerror="this.src='../img/none200x200.gif'" /></div></div>
+<div class="d2">
+<div class="b1">超强功能影视/电影/视频APP系统，拥有香蕉、黄瓜、番茄APP的功能，带H5手机端引流</div>
+<div class="b2">
+<div class="sb1">
+
+<span>thinkphp </span>
+
+<span>PHP </span>
+
+<span>Mysql </span>
+
+<span>完全开源（含全部源文件） </span>
+
+<span>免授权 </span>
+
+<span>整站源码 </span>
+
+<span>Wap App </span>
+
+<span>收费安装(另补差价) </span>
+
+<span>Linux </span>
+
+<span>独立主机（服务器） </span>
+
+<span>apache nginx </span>
+
+<span>提供管理权限 QQ远程协助 </span>
+
+<span>需要 </span>
+
+<span>34 </span>
+    
+</div>
+<div class="sb2">
+<span class="s1">￥8888</span>
+<span class="s2">销量 1</span>
+</div>
+</div>
+<div class="b3"><span>购买</span></div>
+</div>
+</div>
+</a>
+
+</div>
+</div>
+
+
+<div class="indexcap box">
+<div class="d1 flex">网站源码</div>
+<div class="d2"><a href="product/search_j1v.html">更多 ></a></div>
+</div>
+
+
+
+<div class="swiper-containerpp">
+<div class="swiper-containerp1">
+<div class="swiper-wrapper">
+
+<div class="swiper-slide" onClick="gourl('product/view1.html')">
+<div class="dmain">      
+<div class="d1"><img src="http://ekdy.zxm.ink/upload/1/1607579192-1/0619837001607579242tp1-1.jpg" onerror="this.src='../img/none200x200.gif'" /></div>
+<div class="d2">超强功能影视/电影/视频APP系统，拥有香蕉、黄瓜、番茄APP的功能，带H5手机端引流...</div>
+<div class="d3">￥8888.00</div>
+</div>
+</div>
+
+</div>
+<div class="swiper-paginationp1"></div>
+</div>
+</div>
+<script>
+swiperp1 = new Swiper('.swiper-containerp1', {
+slidesPerView: 2.7,
+spaceBetween:20,
+freeMode: true,
+pagination: {
+el: '.swiper-paginationp1',
+clickable: true,
+},
+});
+</script>
+
+<div class="indexcap box">
+<div class="d1 flex">教程专区</div>
+<div class="d2"><a href="product/search_j4v.html">更多 ></a></div>
+</div>
+
+
+
+<div class="swiper-containerpp">
+<div class="swiper-containerp4">
+<div class="swiper-wrapper">
+
+</div>
+<div class="swiper-paginationp4"></div>
+</div>
+</div>
+<script>
+swiperp4 = new Swiper('.swiper-containerp4', {
+slidesPerView: 2.7,
+spaceBetween:20,
+freeMode: true,
+pagination: {
+el: '.swiper-paginationp4',
+clickable: true,
+},
+});
+</script>
+
+<div class="indexcap box">
+<div class="d1 flex">设计素材</div>
+<div class="d2"><a href="product/search_j7v.html">更多 ></a></div>
+</div>
+
+
+
+<div class="swiper-containerpp">
+<div class="swiper-containerp7">
+<div class="swiper-wrapper">
+
+</div>
+<div class="swiper-paginationp7"></div>
+</div>
+</div>
+<script>
+swiperp7 = new Swiper('.swiper-containerp7', {
+slidesPerView: 2.7,
+spaceBetween:20,
+freeMode: true,
+pagination: {
+el: '.swiper-paginationp7',
+clickable: true,
+},
+});
+</script>
+
+<div class="indexcap box">
+<div class="d1 flex">虚拟会员</div>
+<div class="d2"><a href="product/search_j9v.html">更多 ></a></div>
+</div>
+
+
+
+<div class="swiper-containerpp">
+<div class="swiper-containerp9">
+<div class="swiper-wrapper">
+
+</div>
+<div class="swiper-paginationp9"></div>
+</div>
+</div>
+<script>
+swiperp9 = new Swiper('.swiper-containerp9', {
+slidesPerView: 2.7,
+spaceBetween:20,
+freeMode: true,
+pagination: {
+el: '.swiper-paginationp9',
+clickable: true,
+},
+});
+</script>
+
+<div class="indexcap box">
+<div class="d1 flex">软件专区</div>
+<div class="d2"><a href="product/search_j8v.html">更多 ></a></div>
+</div>
+
+
+
+<div class="swiper-containerpp">
+<div class="swiper-containerp8">
+<div class="swiper-wrapper">
+
+</div>
+<div class="swiper-paginationp8"></div>
+</div>
+</div>
+<script>
+swiperp8 = new Swiper('.swiper-containerp8', {
+slidesPerView: 2.7,
+spaceBetween:20,
+freeMode: true,
+pagination: {
+el: '.swiper-paginationp8',
+clickable: true,
+},
+});
+</script>
+
+
+<style>
+.guessulike {text-align:left;background: rgb(255, 255, 255); position: relative; border-style: solid; border-color: rgb(255, 253, 253); border-width: 1px 0px; }
+.guessulike .d1{font-size: 15px;height: 40px;background-color: #fff;border-bottom: #ebebeb solid 1px;}
+
+.guessulike h3 { height: 40px; line-height: 40px; font-size: 16px; padding: 0px 10px; color: rgb(44, 62, 80); border-bottom: #ebebeb solid 1px; border-top-width: 0px; border-right-width: 0px; border-left-width: 0px; }
+.guessulike h3 i { display: inline-block; width: 5px; height: 16px; background: rgb(244, 70, 35); border-radius: 5px; vertical-align: middle; position: relative; bottom: 2px; margin-right: 5px; }
+.guessulike h3 .more {float: right;font-size: 0.7rem;color: #a4a6a9;}
+.guessulike div.pj_box { padding-top: 10px; height: 135px; }
+.guessulike div.pj_box ul li {margin: 0px 5px;}
+.pj_box { width: 100%; height: 135px; overflow: auto; }
+.pj_box ul li {width: 90px;margin-right: 10px;float: left;}
+.pj_box ul li img {border: 1px solid #e8e7e5;border-radius:50%;display: block; margin: 0px auto; }
+.pj_box ul li em {text-align: center;font-style: normal;font-size: 12px; display: block; line-height: 1.5; height: 16px; overflow: hidden; margin: 5px 0px; }
+.pj_box ul li b {text-align: center;display: block; color: rgb(244, 70, 35); }
+</style>
+
+
+
+<div class="indexcap box">
+<div class="d1 flex">近期收入榜</div>
+<div class="d2"></a></div>
+</div>
+
+<div class="guessulike"> 
+<div class="pj_box"> 
+<ul style="width: 700px;"> 
+
+<li><a href="shop/view1.html"><img src="../../../../upload/1/shop.jpg" width="80" height="80" alt="img"><em>哑舍</em><b>￥8888</b></a></li>
+
+</ul>
+</div> 
+</div>
+
+
+
+<div class="indexcap box">
+<div class="d1 flex">资讯动态</div>
+<div class="d2"><a href="news/newslist.html">更多 ></a></div>
+</div>
+
+<a href="news/txtlist_i1v.html">
+<div class="newslist box">
+<div class="d1 flex">
+<span class="s1">vscode插件安装</span>
+<span class="s2">计算机/互联网</span>
+<span class="s3">2020-12-14 10:06:27</span>
+</div>
+<div class="d2"><img src="http://ekdy.zxm.ink/upload/news/20201214/1607911587n1/0240079001607912282tp1-1.jpg" onerror="this.src='../../img/none180x180.gif'" /></div>
+</div>
+</a>
+
+
+
+
+<div class="bottommain"></div>
+
+<div class="gbottom box">
+
+    <div class="dm" onclick="gourl('http://ekdy.zxm.ink/m/')" id="bottom1"><div class="icon icon-index"></div>首页</div>
+
+    <div class="dm" onclick="gourl('http://ekdy.zxm.ink/m/search/main.php')" id="bottom5"><div class="icon icon-find"></div>搜索</div>
+
+    <div class="dm" onclick="gourl('http://ekdy.zxm.ink/m/user/order.php')" id="bottom2"><div class="icon icon-community"></div>订单</div>
+
+    <div class="dm" onclick="gourl('http://ekdy.zxm.ink/m/user/car.php')" id="bottom3"><div class="icon icon-exercise"></div>购物车</div>
+
+    <div class="dm" onclick="gourl('http://ekdy.zxm.ink/m/user/')" id="bottom4"><div class="icon icon-me"></div>我的</div>
+
+</div>
+
+<div style="display:none;">11</div>
+</body>
+</html>

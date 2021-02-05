@@ -1,0 +1,8 @@
+# robots.txt generated at http://tool.chinaz.com/robots/ 
+User-agent: *
+Disallow: 
+Disallow: /bin/
+Sitemap: https://www.a8zhan.com/sitemap.html
+Sitemap: https://www.a8zhan.com/sitemap.xml
+Sitemap: https://a8zhan.com/sitemap.html
+Sitemap: https://a8zhan.com/sitemap.xml

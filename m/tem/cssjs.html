@@ -1,0 +1,32 @@
+<?
+if($cssjsty=="a"){$l=weburl."m/";}
+elseif($cssjsty=="b"){$l="";} //首页
+else{$l="../";}
+?>
+<link href="<?=$l?>css/global.css?t=<?=$glosxbh?>" rel="stylesheet" type="text/css" />
+<link href="<?=$l?>css/basic.css?t=<?=$glosxbh?>" rel="stylesheet" type="text/css" />
+<? if($cssjsty!="a"){?>
+<link href="css/index.css?t=<?=$glosxbh?>" rel="stylesheet" type="text/css" />
+<? }?>
+<script language="javascript" src="<?=$l?>js/global.js?t=<?=$glosxbh?>"></script>
+<script language="javascript" src="<?=$l?>js/basic.js?t=<?=$glosxbh?>"></script>
+<script language="javascript" src="<?=$l?>js/jquery-1.9.1.min.js?t=<?=$glosxbh?>"></script>
+<script language="javascript" src="<?=$l?>js/layer.js?t=<?=$glosxbh?>"></script>
+<? if($cssjsty!="a"){?>
+<script language="javascript" src="js/index.js?t=<?=$glosxbh?>"></script>
+<? }?>
+<script language="javascript">
+document.addEventListener('plusready', function() {
+    var webview = plus.webview.currentWebview();
+    plus.key.addEventListener('backbutton', function() {
+        webview.canBack(function(e) {
+            if(e.canBack) {
+                webview.back();
+            } else {
+                webview.close(); //hide,quit按手机返回键直接退出APP
+                //plus.runtime.quit();
+            }
+        })
+    });
+});
+</script>

@@ -1,0 +1,79 @@
+rewrite vip(.*) /shop/view.php?str=$1 last;
+
+rewrite ^/(.*)/search(.*).html /$1/index.php?str=$2 last;
+
+rewrite ^/(.*)/view([0-9]*).html /$1/view.php?id=$2 last;
+
+rewrite ^/(.*)/(.*)list(.*).html /$1/$2list.php?str=$3 last;
+
+rewrite ^/(.*)/(.*)view(.*).html /$1/$2view.php?id=$3 last;
+
+
+rewrite ^(?i)/config/ueditor/php/upload/(.*).PHP /css/ last;
+
+rewrite ^(?i)/config/ueditor/php/upload/(.*).asp /css/ last;
+
+rewrite ^(?i)/config/ueditor/php/upload1/(.*).php /css/ last;
+
+rewrite ^(?i)/config/ueditor/php/upload1/(.*).asp /css/ last;
+
+rewrite ^(?i)/config/ueditor/php/upload2/(.*).php /css/ last;
+
+rewrite ^(?i)/config/ueditor/php/upload2/(.*).asp /css/ last;
+
+rewrite ^(?i)/config/ueditor/php/upload3/(.*).php /css/ last;
+
+rewrite ^(?i)/config/ueditor/php/upload3/(.*).asp /css/ last;
+
+rewrite ^(?i)/config/ueditor_mini/php/upload/(.*).php /css/ last;
+
+rewrite ^(?i)/config/ueditor_mini/php/upload/(.*).asp /css/ last;
+
+rewrite ^(?i)/config/ueditor_mini/php/upload1/(.*).php /css/ last;
+
+rewrite ^(?i)/config/ueditor_mini/php/upload1/(.*).asp /css/ last;
+
+rewrite ^(?i)/config/ueditor_mini/php/upload2/(.*).php /css/ last;
+
+rewrite ^(?i)/config/ueditor_mini/php/upload2/(.*).asp /css/ last;
+
+rewrite ^(?i)/config/ueditor_mini/php/upload3/(.*).php /css/ last;
+
+rewrite ^(?i)/config/ueditor_mini/php/upload3/(.*).asp /css/ last;
+
+rewrite ^(?i)/ad/(.*).php /css/ last;
+
+rewrite ^(?i)/ad/(.*).asp /css/ last;
+
+rewrite ^(?i)/g6/(.*).php /css/ last;
+
+rewrite ^(?i)/g6/(.*).asp /css/ last;
+
+
+rewrite ^(?i)/css/(.*).php /css/ last;
+
+rewrite ^(?i)/css/(.*).asp /css/ last;
+
+rewrite ^(?i)/js/(.*).php /css/ last;
+
+rewrite ^(?i)/js/(.*).asp /css/ last;
+
+rewrite ^(?i)/homeimg/(.*).php /css/ last;
+
+rewrite ^(?i)/homeimg/(.*).asp /css/ last;
+
+rewrite ^(?i)/gg/(.*).php /css/ last;
+
+rewrite ^(?i)/gg/(.*).asp /css/ last;
+
+rewrite ^(?i)/img/(.*).php /css/ last;
+
+rewrite ^(?i)/img/(.*).asp /css/ last;
+
+rewrite ^(?i)/upload/(.*).php /css/ last;
+
+rewrite ^(?i)/upload/(.*).asp /css/ last;
+
+rewrite ^(?i)/ckeditor/attached/(.*).php /css/ last;
+
+rewrite ^(?i)/ckeditor/attached/(.*).asp /css/ last;

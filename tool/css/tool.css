@@ -1,0 +1,38 @@
+
+body {background-color: #EDEDED;}
+/*当前位置*/
+.dqwz {float:left;width:1148px;background:#fff;padding:5px 0px 5px 0;border:1px solid #eee;height:18px;margin:10px 0px 0px 0px;text-align:left;}
+.dqwz .u1 {float:left;width:1130px;padding:0px 0px 0px 15px;}
+.dqwz .u1 li {float:left;}
+.dqwz .u1 .l1 {width:950px;color:#666;}
+.dqwz .u1 .l1 a {color:#666;}
+
+/*软件列表*/
+
+.tool_box{width: 1148px;max-width:1148px; background: #fff;overflow: hidden;}
+
+
+.tool_list{zoom:1;overflow:hidden;padding:0 0 25px 0}
+.tool_list a{display:block;float:left;border:3px solid #ededed;padding:12px;width:262px;height:90px;margin:18px 0 0 18px}
+.tool_list a h2{font-size:12px}
+.tool_list a h2 span{border-bottom:2px solid #ededed;padding-bottom:5px}
+.tool_list a:hover h2 span{border-bottom:2px solid #09f}
+.tool_list a p{font-size:12px;line-height:18px;padding-top:12px;color:#999}
+.tool_list a:hover p{color:#09f}
+.tool_list a img{float:left;margin-right:12px}
+.tool_list a:hover{border:3px solid #F90}
+
+.iconlist{ margin-top:40px;}
+.iconlist li{margin:0 0 40px 30px;width:350px;overflow:hidden;float:left;overflow:hidden;position:relative;text-align:left;}
+.iconlist li img.icon, .iconlist li div.info, .iconlist li div.btns{float:left;position:relative;}
+.iconlist li img.icon{margin-right:15px;width:86px;height:86px; margin-top:10px;}
+.iconlist li div.info{width:245px;}
+.iconlist li h3 { font-size:20px;}
+.iconlist li div.info h3,.iconlist li div.info p{margin:0;padding:0;}
+.iconlist li div.info h3{margin-bottom:5px;}
+.iconlist li div.info p{margin-bottom:5px;padding:0 20px 0 0;color:#999; font-size:14px;height: 34px;}
+.iconlist li div.info span{ display:block; margin-bottom:10px;color:#008040; font-size:14px;}
+.iconlist li div.info .btn{padding:6px 20px; line-height:25px;}
+.boxlist li{padding-left:15px;width:203.3333333333px;height:30px;overflow:hidden;float:left;position:relative;}
+.boxlist li a{line-height:30px;}
+.btn-primary{color:#fff;background-color:#008040;border-color:#008040;}.btn-primary:hover{color:#fff;background-color:#F90;border-color:#F90;}

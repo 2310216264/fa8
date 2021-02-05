@@ -1,0 +1,19 @@
+@charset "utf-8";
+/*搜索*/
+.searm{margin:0;border-bottom:#E3E3E3 solid 1px;height:60px;background-color:#fff;}
+.searm .d0{width:70px;margin:10px 0 0 10px;border:#E6E6E6 solid 1px;border-right:0;height:38px;}
+.searm .d0 select{border:0;font-size:14px;margin:8px 0 0 5px;background-color:#fff;}
+.searm .d1{margin:10px 0 0 0;height:38px;overflow:hidden;border:#E6E6E6 solid 1px;border-right:0;}
+.searm .d1 input{float:left;height:38px;width:100%;font-size:14px;text-align:center;border:0;}
+.searm .d2{width:85px;margin:10px 10px 0 0;}
+.searm .d2 input{height:40px;padding-left:35px;text-align:left;background:url(../img/wen.png) no-repeat;background-position:14px 13px;float:left;border:0;color:#fff;width:85px;background-color:#FFB800;}
+
+.serhis{}
+.serhis .d1{font-weight:700;font-size:15px;margin:15px 0 0 10px;}
+.serhis .d2{width:50px;margin:15px 10px 0 0;text-align:right;}
+.serhis .d2 img{width:15px;margin:4px 0 0 0;}
+.serhislist{}
+.serhislist .d1{margin:0 10px 0 0;font-size:14px;}
+.serhislist .d1 a{float:left;margin:10px 0 0 10px;padding:4px 20px 5px 20px;background-color:#f2f2f2;border-radius:50px;}
+
+
